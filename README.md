@@ -27,4 +27,17 @@ and DenseNet121**
 
 - **Performed various experiments to determine the best model using matrices like Accuracy, Precision, Recall, and F1-score**
 
+### Model Fusion Technique
 
+#### Feature Concatenation
+
+To improve the classification of brain tumor MRI images, we have used the feature concatenation model fusion technique. 
+
+Specifically, after assembling and training the model on our dataset, we concatenated the layers of EfficientNetB0 and InceptionV3.
+ 
+ Our model evaluation produced some outstanding performance metrics:
+ 
+ - **Accuracy**: 99.47%
+ - **Precision**: 99.47%
+ - **Recall**: 99.47%
+ - **F1 score**: 99.42%
